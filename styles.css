@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}
+
+.title {
+  display: inline-block;
+  font-size: 1.6rem;
+  text-align: center;
+  font-family: "Rowdies", cursive;
+  /* font-family: "Roboto", sans-serif; */
+  color: #3b3b3b;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 1.6rem;
+  color: #5d6f8a;
+}
+
+li {
+  line-height: 1.1;
+  margin-bottom: 0.25rem;
+  font-size: small;
+  color: #999090;
+}
+
+.wrapper {
+  padding-top: 1rem;
+}
+
+input {
+  margin: 0.5rem;
+}
+
+.submit {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 0;
+  display: block;
+  width: 100%;
+  background-color: #71b5f9;
+}
+
+.submit {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  border: none;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #71b5f9;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+body {
+  background: #fafafa;
+  font-size: 14px;
+}
+
+.wrapper .header {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+}
+
+.wrapper .header .top,
+.wrapper .signup {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 1px;
+  padding: 40px 40px 20px;
+}
+
